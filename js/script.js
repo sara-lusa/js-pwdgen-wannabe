@@ -9,4 +9,4 @@ var coloreUtente = prompt('Qual è il tuo colore preferito?');
 var passwordUtente = nomeUtente + cognomeUtente + coloreUtente + 19;
 
 // Visualizzazione Password sulla pagina
-document.getElementById('password').innerHTML = 'La tua password è ' + passwordUtente;
+document.getElementById('password').innerHTML = passwordUtente;
